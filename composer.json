@@ -1,7 +1,7 @@
 {
     "name": "zhan114/since",
     "description": "redis",
-    "type": "lib",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -10,7 +10,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^7.1",
+        "ext-redis": "*",
+        "ext-json": "*"
+    },
 	"autoload": {
         "psr-4": {
             "since\\": "src/"
