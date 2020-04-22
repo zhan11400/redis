@@ -1,0 +1,19 @@
+{
+    "name": "zhan114/since",
+    "description": "redis",
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhan",
+            "email": "1140099248@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "since\\": "src/"
+        }
+    }
+}
