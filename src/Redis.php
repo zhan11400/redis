@@ -6,7 +6,7 @@
  * Email:  1140099248@qq.com
  */
 
-namespace since;
+namespace sinceRedis;
 
 
 
