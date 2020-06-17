@@ -1,5 +1,5 @@
 {
-    "name": "zhan114/sinceRedis",
+    "name": "zhan114/redis",
     "description": "redis",
     "type": "library",
     "license": "MIT",
