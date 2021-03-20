@@ -51,7 +51,18 @@ class Redis
    ###系统
 
     /**redis信息
-     * @param null $option 前缀
+     * @param null $option 一下参数
+     * server 服务器信息
+     * clients 已连接客户端信息
+     * memory内存信息
+     * persistence RDB 和 AOF 的相关信息
+     * stats 一般统计信息
+     * replication 主从复制信息
+     * cpu CPU 计算量统计信息
+     *  commandstatsRedis 命令统计信息
+     * clusterRedis 集群信息
+     * keyspace数据库相关的统计信息
+     *
      * @return string
      */
     public function info($option=null)
