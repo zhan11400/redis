@@ -172,7 +172,7 @@ class Redis
      * @param $pattern
      * @return array
      */
-    public function keys($pattern)
+    public function keys($pattern='*')
     {
         return $this->redis->keys($pattern);
     }
