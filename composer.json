@@ -1,23 +1,23 @@
 {
-    "name": "since/redis",
-    "description": "redis",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "zhan",
-            "email": "1140099248@qq.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": ">=7.1",
-        "ext-redis": "*",
-        "ext-json": "*"
-    },
-	"autoload": {
-        "psr-4": {
-            "since\\": "src/"
-        }
+  "name": "since/redis",
+  "description": "一个基于PHP 8+的高性能Redis客户端库，提供连接池+门面模式和原始单例模式两种使用方式，支持Redis所有数据结构操作，包含完整的类型声明和异常处理机制。",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhan",
+      "email": "1140099248@qq.com"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0",
+    "ext-redis": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "since\\": "src/"
+    }
+  }
 }
